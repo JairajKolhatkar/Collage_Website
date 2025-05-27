@@ -23,7 +23,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Legacy of Excellence</h2>
               <p className="text-gray-600 mb-4">
-                Late Vasantrao Kolhatkar Arts College is a premier educational institution committed to providing quality education 
+                Late Vasantrao Kolhatkar College is a premier educational institution committed to providing quality education 
                 to students from all walks of life. Established in 1999, the college has grown to become a 
                 center of academic excellence and innovation in the Wardha district.
               </p>
@@ -280,7 +280,7 @@ const About = () => {
                 <p className="text-primary-600 font-medium mb-3">Vice Principal, Academics</p>
                 <p className="text-gray-600 mb-4">
                   Prof. Mehta oversees all academic affairs and curriculum development. Her innovative approaches 
-                  have enhanced the quality of education at Late Vasantrao Kolhatkar Arts College.
+                  have enhanced the quality of education at Late Vasantrao Kolhatkar College.
                 </p>
                 <p className="text-gray-500 text-sm">Ph.D. in Curriculum Development, Mumbai University</p>
               </div>
