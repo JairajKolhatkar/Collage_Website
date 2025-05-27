@@ -11,14 +11,15 @@ A premium, responsive, and scalable college website built with modern technologi
 ## Tech Stack
 
 ### Frontend
-- React with TypeScript (.tsx)
-- Tailwind CSS for styling and responsive design
-- React Router for client-side navigation
+- React with TypeScript
+- Tailwind CSS for styling
+- React Router for navigation
 - React Icons for UI elements
-- Vite for fast development and optimized builds
 
 ### Backend
 - Node.js with Express
+- TypeScript
+- Sequelize ORM
 - PostgreSQL database
 - JWT-based authentication
 - RESTful API architecture
@@ -107,33 +108,24 @@ cd Collage_Website
 ```
 
 2. Install dependencies
-```bash
-# Install root dependencies
-npm install
+   ```
+   npm run install-all
+   ```
 
-# Install client dependencies
-cd client && npm install
+### Running the Application
 
-# Install server dependencies
-cd ../server && npm install
+To run both client and server concurrently:
 ```
-
-3. Set up environment variables
-```bash
-# Create .env file in the server directory
-cp server/.env.example server/.env
-# Edit the .env file with your database credentials
-```
-
-4. Run the development server
-```bash
-# Run both client and server (from root directory)
 npm run dev
+```
 
-# Run only client
+To run only the client:
+```
 npm run client
+```
 
-# Run only server
+To run only the server:
+```
 npm run server
 ```
 
@@ -147,6 +139,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+To build both client and server:
+```
+cd client && npm run build
+cd server && npm run build
+```
 
 ## Acknowledgments
 

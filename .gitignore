@@ -1,15 +1,14 @@
-# Dependencies
-node_modules
-.pnp
-.pnp.js
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
 
-# Testing
-coverage
-
-# Production
-build
-dist
-out
+# Build outputs
+dist/
+build/
+client/dist/
+client/build/
+server/dist/
 
 # Environment variables
 .env
@@ -17,6 +16,8 @@ out
 .env.development.local
 .env.test.local
 .env.production.local
+client/.env
+server/.env
 
 # Logs
 logs
@@ -25,15 +26,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Coverage directory used by tools like istanbul
+coverage/
 
-# OS
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
 Thumbs.db 
