@@ -4,21 +4,21 @@ const FeaturedPrograms = () => {
   const programs = [
     {
       title: 'Bachelor of Arts',
-      description: 'Comprehensive programs in English Literature, History, Economics, and more.',
+      description: 'Comprehensive programs in English, History, Economics, Marathi Literature and Political Science.',
       image: 'arts.jpg',
       link: '/academics#arts'
     },
     {
       title: 'Bachelor of Science',
-      description: 'Cutting-edge programs in Physics, Chemistry, Mathematics, and Computer Science.',
+      description: 'Programs in B.Sc. Networking and Multimedia with a focus on developing technical skills.',
       image: 'science.jpg',
       link: '/academics#science'
     },
     {
-      title: 'Bachelor of Commerce',
-      description: 'Industry-focused programs with specializations in Accounting and Finance.',
-      image: 'commerce.jpg',
-      link: '/academics#commerce'
+      title: 'Diploma in Education',
+      description: 'Two-year Diploma in Education (D.Ed.) program to prepare future educators.',
+      image: 'diploma.jpg',
+      link: '/academics#diploma'
     },
     {
       title: 'Master\'s Programs',
@@ -34,7 +34,7 @@ const FeaturedPrograms = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Featured Programs</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our diverse range of undergraduate and postgraduate programs designed to prepare you for a successful career.
+            Discover our diverse range of programs designed to prepare you for a successful career.
           </p>
         </div>
 

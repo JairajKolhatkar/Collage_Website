@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About College */}
           <div>
-            <h3 className="text-xl font-bold mb-4">VK College</h3>
+            <h3 className="text-xl font-bold mb-4">Late Vasantrao Kolhatkar  College</h3>
             <p className="text-gray-300 mb-4">
-              Providing quality education since 1954. Our mission is to empower students with knowledge and skills for a successful future.
+              Providing quality education since 1999. Our mission is to empower students with knowledge and skills for a successful future.
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
@@ -49,10 +49,10 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/academics" className="text-gray-300 hover:text-white">Bachelor of Arts</Link></li>
               <li><Link to="/academics" className="text-gray-300 hover:text-white">Bachelor of Science</Link></li>
-              <li><Link to="/academics" className="text-gray-300 hover:text-white">Bachelor of Commerce</Link></li>
-              <li><Link to="/academics" className="text-gray-300 hover:text-white">Master of Arts</Link></li>
-              <li><Link to="/academics" className="text-gray-300 hover:text-white">Master of Science</Link></li>
-              <li><Link to="/academics" className="text-gray-300 hover:text-white">PhD Programs</Link></li>
+              <li><Link to="/academics" className="text-gray-300 hover:text-white">Diploma in Education</Link></li>
+              <li><Link to="/academics" className="text-gray-300 hover:text-white">B.A. in English</Link></li>
+              <li><Link to="/academics" className="text-gray-300 hover:text-white">B.A. in Economics</Link></li>
+              <li><Link to="/academics" className="text-gray-300 hover:text-white">B.A. in History</Link></li>
             </ul>
           </div>
 
@@ -62,15 +62,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-gray-300 mt-1" />
-                <span className="text-gray-300">VK College, Rohana Road, District Virudhunagar, Tamil Nadu, India</span>
+                <span className="text-gray-300">At. Post. Rohana, Tah. Arvi, Dist. Wardha, Maharashtra 442309, India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaPhone className="text-gray-300" />
-                <span className="text-gray-300">+91 123-456-7890</span>
+                <span className="text-gray-300">+91 07157-203445</span>
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-gray-300" />
-                <span className="text-gray-300">info@vkcollege.edu.in</span>
+                <span className="text-gray-300">info@vkcollegerohana.co.in</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-6 text-center">
           <p className="text-gray-400">
-            © {currentYear} VK College. All rights reserved.
+            © {currentYear} Late Vasantrao Kolhatkar College. All rights reserved.
           </p>
           <div className="mt-2 space-x-4">
             <Link to="/privacy-policy" className="text-gray-400 hover:text-white text-sm">Privacy Policy</Link>

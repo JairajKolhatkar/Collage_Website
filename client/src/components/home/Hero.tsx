@@ -9,10 +9,10 @@ const Hero = () => {
       <div className="container-custom py-20 md:py-28 lg:py-36 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            VK College Rohana
+            Late Vasantrao Kolhatkar College
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-50">
-            Empowering Minds, Shaping Futures - Excellence in Education Since 1998
+            Empowering Minds, Shaping Futures - Excellence in Education Since 1999
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/admissions" className="btn-primary bg-white text-primary-700 hover:bg-primary-50">

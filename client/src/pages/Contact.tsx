@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Get in touch with VK College Rohana. We're here to answer your questions and provide any information you need.
+            Get in touch with Late Vasantrao Kolhatkar College. We're here to answer your questions and provide any information you need.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
               <FaMapMarkerAlt className="text-2xl" />
             </div>
             <h3 className="text-lg font-bold text-gray-800 mb-2">Our Location</h3>
-            <p className="text-gray-600">VK College Campus, Rohana Road, Rohana - 110001, India</p>
+            <p className="text-gray-600">At. Post. Rohana, Tah. Arvi, Dist. Wardha, Maharashtra 442309, India</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -75,8 +75,8 @@ const Contact = () => {
               <FaPhone className="text-2xl" />
             </div>
             <h3 className="text-lg font-bold text-gray-800 mb-2">Call Us</h3>
-            <p className="text-gray-600">Main Office: +91 123-456-7890</p>
-            <p className="text-gray-600">Admissions: +91 123-456-7891</p>
+            <p className="text-gray-600">Main Office: +91 07157-203445</p>
+            <p className="text-gray-600">Admissions: +91 07157-203445</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -115,15 +115,15 @@ const Contact = () => {
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>By Bus: Routes 101, 102, 103 stop directly in front of the college</span>
+                  <span>By Bus: State transport buses connect Rohana to Wardha and nearby towns</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>By Train: Rohana Railway Station is 2 km away, with shuttle service available</span>
+                  <span>By Train: Nearest railway station is at Wardha, approximately 20 km away</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-2">•</span>
-                  <span>By Car: Parking available on campus for visitors (Gate 2)</span>
+                  <span>By Car: Easily accessible from Arvi and Wardha via state highways</span>
                 </li>
               </ul>
             </div>
@@ -400,13 +400,13 @@ const Contact = () => {
             <div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">How can I schedule a campus tour?</h3>
               <p className="text-gray-600">
-                Campus tours are available Monday through Friday from 10:00 AM to 3:00 PM. Please contact our admissions office at admissions@vkcollegerohana.co.in or call +91 123-456-7891 to schedule a tour.
+                Campus tours are available Monday through Friday from 10:00 AM to 3:00 PM. Please contact our admissions office at admissions@vkcollegerohana.co.in or call +91 7157 203 445 to schedule a tour.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">Are scholarships available?</h3>
               <p className="text-gray-600">
-                Yes, VK College Rohana offers various merit-based and need-based scholarships. Contact our finance department or visit the Scholarships section on our website for more information.
+                Yes, Late Vasantrao Kolhatkar Arts College offers various merit-based and need-based scholarships. Contact our finance department or visit the Scholarships section on our website for more information.
               </p>
             </div>
             <div>

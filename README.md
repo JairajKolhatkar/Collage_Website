@@ -1,6 +1,6 @@
-# College Website - Fullstack Project
+# Late Vasantrao Kolhatkar Arts College - Fullstack Project
 
-A premium, responsive, and scalable college website built with modern technologies. This project provides a comprehensive digital platform for educational institutions with features for students, faculty, and administrators.
+A premium, responsive, and scalable college website built with modern technologies. This project provides a comprehensive digital platform for Late Vasantrao Kolhatkar Arts College, Rohana, offering features for students, faculty, and administrators.
 
 ## Live Demo
 

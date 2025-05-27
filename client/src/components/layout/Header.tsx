@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <span className="font-serif text-2xl font-bold text-primary-700">VK College</span>
+            <span className="font-serif text-2xl font-bold text-primary-700">LVKAC Rohana</span>
           </Link>
 
           {/* Desktop Navigation */}
