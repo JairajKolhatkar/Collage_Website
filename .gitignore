@@ -37,4 +37,7 @@ coverage/
 
 # OS files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Deployment files
+RENDER_DEPLOY.md 
