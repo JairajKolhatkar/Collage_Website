@@ -1,0 +1,28 @@
+{
+  "name": "college-website",
+  "version": "1.0.0",
+  "description": "Premium, responsive and scalable college website",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm install && npm run install-client && npm run install-server"
+  },
+  "keywords": [
+    "college",
+    "education",
+    "fullstack",
+    "react",
+    "typescript",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
